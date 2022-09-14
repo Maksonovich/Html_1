@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    /* z-index: 1; */
+}
+
+.container {
+    background-size: 100% 100%;
+    width: 1110px;
+    margin: 0 auto;
+    /* background-color: green; */
+    padding: 0 15px;
+}
+@media (max-width:1110px) {
+    .container {
+        max-width: 800px;
+    }
+}
